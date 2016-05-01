@@ -1,11 +1,11 @@
 package com.cnblogs.yjmyzz.sharding.service.impl;
 
+import com.cnblogs.yjmyzz.sharding.algorithm.SingleKeyModuloTableShardingAlgorithm;
 import com.cnblogs.yjmyzz.sharding.entity.Order;
 import com.cnblogs.yjmyzz.sharding.entity.OrderExample;
+import com.cnblogs.yjmyzz.sharding.list.ListUtil;
 import com.cnblogs.yjmyzz.sharding.mapper.OrderMapper;
 import com.cnblogs.yjmyzz.sharding.service.OrderService;
-import com.huijiame.utils.list.ListUtil;
-import com.huijiame.utils.sharding.jdbc.SingleKeyModuloTableShardingAlgorithm;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
